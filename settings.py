@@ -80,7 +80,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
-ROOT_URLCONF = 'basicblog.urls'
+ROOT_URLCONF = 'swethasblog.urls' # changed from basicblog
 
 TEMPLATES = [
     {
