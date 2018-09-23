@@ -35,13 +35,6 @@ DEBUG = True
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd5j1coo3dl6kct',
-        'USER': 'ukdrbkhbbzkdjf',
-        'PASSWORD': '0559cb673baa013a870bc351b1e65aeaa0f27b78648d304cdf9a25a2f770e037',
-        'HOST': 'postgres://ukdrbkhbbzkdjf:0559cb673baa013a870bc351b1e65aeaa0f27b78648d304cdf9a25a2f770e037@ec2-54-83'
-                '-29-34.compute-1.amazonaws.com:5432/d5j1coo3dl6kct',
-        'PORT': '5432',
-
     }
 }
 
@@ -49,9 +42,9 @@ try:
     from local_settings import *
 except ImportError:
     # Update database configuration with $DATABASE_URL.
-    # db_from_env = dj_database_url.config(conn_max_age=500)
-    # DATABASES['default'].update(db_from_env)
-    # DATABASES['default'] = dj_database_url.config()
+    db_from_env = dj_database_url.config(conn_max_age=500)
+    DATABASES['default'].update(db_from_env)
+    DATABASES['default'] = dj_database_url.config()
     pass
 
 # Application definition
