@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc0ec86c-273b-4ac4-8827-d2ed7bf24e58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swethasblog/static/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/swethasblog/static/css/blog.css" afterDir="false" />
-    </list>
+    <list default="true" id="dc0ec86c-273b-4ac4-8827-d2ed7bf24e58" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
           <entry key="gitignore" value="27" />
           <entry key="html" value="121" />
           <entry key="py" value="1346" />
-          <entry key="txt" value="391" />
+          <entry key="txt" value="403" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -78,7 +75,7 @@
           <entry key="CSS" value="4" />
           <entry key="Flow" value="73" />
           <entry key="HTML" value="121" />
-          <entry key="PLAIN_TEXT" value="418" />
+          <entry key="PLAIN_TEXT" value="430" />
           <entry key="Python" value="1346" />
         </counts>
       </usages-collector>
@@ -95,7 +92,7 @@
           <entry key="html" value="24" />
           <entry key="keep" value="3" />
           <entry key="pstat" value="2" />
-          <entry key="py" value="98" />
+          <entry key="py" value="99" />
           <entry key="sql" value="1" />
           <entry key="sqlite_master" value="1" />
           <entry key="txt" value="6" />
@@ -109,7 +106,7 @@
           <entry key="HTML" value="24" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="Profiler Session" value="2" />
-          <entry key="Python" value="98" />
+          <entry key="Python" value="99" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -153,7 +150,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swethasblog/static/css/blog.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1215">
@@ -180,20 +177,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swethasblog/templates/blog/post/detail.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Asgnm_Proj1/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+            <state relative-caret-position="281">
+              <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+              <folding>
+                <element signature="e#310#319#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swethasblog/templates/blog/post/list.html">
+        <entry file="file://$PROJECT_DIR$/swethasblog/templates/blog/post/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+            <state relative-caret-position="225">
+              <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -315,14 +315,14 @@
               <item name="Asgnm_Proj1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Asgnm_Proj1" type="462c0819:PsiDirectoryNode" />
               <item name="swethasblog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Asgnm_Proj1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Asgnm_Proj1" type="462c0819:PsiDirectoryNode" />
               <item name="swethasblog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Asgnm_Proj1" type="b2602c69:ProjectViewProjectNode" />
@@ -535,12 +535,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538010743938</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="final commit">
+      <created>1538010924957</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1538010924957</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1631664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -557,7 +563,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="11" weight="0.32901135" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.4630137" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.4630137" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -586,12 +592,12 @@
     <MESSAGE value="changes in procfile" />
     <MESSAGE value="updated wsgi file" />
     <MESSAGE value="updatedwhitenoise from 4.0" />
-    <MESSAGE value="final commit" />
     <MESSAGE value="Blog with HTML and CSS added" />
     <MESSAGE value="blog with share option" />
     <MESSAGE value="Updated email share code" />
     <MESSAGE value="updated comment section" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated comment section" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -776,16 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Asgnm_Proj1/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1743">
-          <caret line="132" column="16" lean-forward="true" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
-          <folding>
-            <element signature="e#310#319#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swethasblog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -854,6 +850,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/swethasblog/static/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/swethasblog/templates/blog/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -861,10 +864,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swethasblog/static/css/blog.css">
+    <entry file="file://$PROJECT_DIR$/Asgnm_Proj1/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="281">
+          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding>
+            <element signature="e#310#319#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
