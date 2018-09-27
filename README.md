@@ -1,32 +1,29 @@
-# Activity 5 - Python Exercise - Lists, Tuples and Dictionaries
+Assignment 1 - Build a Blog Application with Email Sharing of Posts
+Objectives
+Demonstrate basic HTML, CSS and Python skills in building a web application integrated with both a database and an external web services using an IDE (Integrated Development Environment).
+Demonstrate your ability to work with cloud based systems and on premise services and systems and services.
+Gain an understanding of the value of the MVC (Model View Controller) and MV (Model View) Frameworks used in Python, Ruby, PHP, Java and .NET today.
+Develop a web/database application.
+Demonstrate best practice code management by using Git on your laptop and Github as a code repository.
+Demonstrate ability to build and execute functional test cases for an application.
+Preparing for Assignment 1
+In Assignment 1, you will be introduced to the python programming language and to Django, a Model View Template framework we will be using to develop web applications. All information concerning set-up and preparing for this assignment can be found in the beginning of the Python Blog Tutorial. Once you have completed the Blog Tutorial and deployed your code to GitHib and your blog application to Heroku or Pythonanywhere, follow the directions below.
 
-## Objectives
-* Demonstrate a your knowledge of how to create, modify and use python lists. 
-* Demonstrate a your knowledge of how to create and use python tuples. 
-* Demonstrate a your knowledge of how to create, modify and use python dictionaries. 
+Deliverables for Assignment 1 - Part 1:
+When you are happy with your working code push the code to GitHub and be sure your GitHub repository is updated.
+Create a markdown file/document and make a few screenshots of your unit test environment running on your laptop with screenshots of the Blog and the admin section of the application. The URL should be easily visible in the screenshots showing localhost 127.0.0.1. Add it to the markdown file/document labeled 4900_Assignment1.
+Add to the markup file/document a link to your blog running in Heroku or Python Anywhere. Along with a few screenshots of it running there as well.
+Create additional superusers in the application deployed to Heroku or PythonAnywhere with the following credentials so I can login and use all features of the application:
+ID: instructor
+Email: groyce@unomaha.edu
+Password: instructor1a
 
-## Directions
-
-There is an activity5.py program file. Erase the current code in the file and create the code to complete the following requirements.
-1.	Create a List Deduplication program which eliminate any duplicates in a list and creates a new list with no duplicates.  Use the following list:
-```Python
-names = ['mary','mary','bill','sam','maria','kahn','bill','barry','george','hank','belinda','maria','karthik']
-```
-2. Sort each list.
-3. Print the results which should look like the following output:
-
-![activity5 lists-results](https://github.com/uno-isqa-4900/activity5/blob/master/images/activity5-lists-results.png)
-
-4. The program should involve creating a deduplication function where above list is sent to the function.  The function should return the deduplicated list to be sorted and printed.
-
-## Submitting your assignment
-1. When you are happy with your working code push the code to GitHub and be sure your GitHub repository is updated.
-2. Create a markdown file/document and make one or more  screenshots of the code working in the command line  (run several different grades through the program and add it to the markdown file/document labeled 4900_Activity5.
-
-## Rubric
-
-| Items | Exemplary  (90% - 100%) | Competent  (80% - 89%) | Acceptable  (70% - 79%) | Insufficient  (below 70%) |
-|:--------------------------:|:---------------------------------------------------------------------------:|:------------------------------------------------------------------------:|:------------------------------------------------------------------------:|:-------------------------------------------------------:|
-| Python Code (max 15 pts) | Functions as described above and has appropriate comments in the code | Generally functions as described above and has some but not all comments | Partially functions as described above and may lack appropriate comments | Does not function as described above and lacks comments |
-| Git and GitHub (max 5 pts) | One or more commits with all code replicated and appropriate commit comment | Code updated in GitHub but lacking an appropriate commit comment | Code not updated in GitHub | Code not updated in GitHub |
-|  |  |  |  |  |
+ID: instructor
+Email: spawaskar@unomaha.edu
+Password: instructor1a
+Be sure to include links to your Heroku or Pythonanywhere Blog site and Github site in the markdown file by the deadline.
+Rubric - Grading Part 1
+Criteria	Points
+Blog running with all expected features in Heroku	40
+Blog Code in Github and Screenshots available in a word document. Links to both code repository and Heroku Site made available. Super User login provided to instructor.	10
+TOTAL	50
