@@ -57,6 +57,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'swethasblog',
+    'taggit',
 ]
 
 MIDDLEWARE = [
@@ -126,9 +127,9 @@ USE_L10N = True
 
 USE_TZ = True
 
-EMAIL_HOST = 'smtp.sparkpostmail.com'
-EMAIL_HOST_USER = 'SMTP_Injection'
-EMAIL_HOST_PASSWORD = 'e4805cd5cec9282a05d3d981204bfdb8c36bb864'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'isqa4900@gmail.com'
+EMAIL_HOST_PASSWORD = 'Sachinpswd1'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 

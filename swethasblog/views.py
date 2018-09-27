@@ -1,9 +1,11 @@
+
 from django.shortcuts import render, get_object_or_404
-from .models import Post
-from django.core.paginator import Paginator, EmptyPage,\
-    PageNotAnInteger
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views.generic import ListView
+from django.core.mail import send_mail
+from .models import Post
 from .forms import EmailPostForm
+
 
 # Create your views here. publish
 
@@ -21,7 +23,8 @@ def post_detail(request, year, month, day, post):
 
 def post_list(request):
     object_list = Post.published.all()
-    paginator = Paginator(object_list, 5) # 6 posts in each page
+
+    paginator = Paginator(object_list, 5)   # 6 posts in each page
     page = request.GET.get('page')
     try:
         posts = paginator.page(page)
@@ -52,10 +55,12 @@ def post_share(request, post_id):
         if form.is_valid():
             # Form fields passed validation
             cd = form.cleaned_data
-            post_url = request.build_absolute_uri(post.get_absolute_url())
+            post_url = request.build_absolute_uri(
+                post.get_absolute_url())
             subject = '{} ({}) recommends you reading "{}"'.format(cd['name'], cd['email'], post.title)
-            message = 'Read "{}" at {}\n\n{}\'s comments:{}'.format(post.title, post_url, cd['name'], cd['comments'])
-            send_mail(subject, message, 'sbyluppala@unomaha.edu', [cd['to']])
+            message = 'Read "{}" at {}\n\n{}\'s comments: {}'.format(post.title, post_url, cd['name'], cd['comments'])
+            send_mail(subject, message, 'isqa4900@gmail.com',
+                      [cd['to']])
             sent = True
     else:
         form = EmailPostForm()

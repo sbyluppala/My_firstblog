@@ -1,5 +1,3 @@
-from django.db import models
-
 
 from django.db import models
 from django.utils import timezone
@@ -31,6 +29,7 @@ class Post(models.Model):
                               default='draft')
     objects = models.Manager()  # The default manager.
     published = PublishedManager()  # Our custom manager.
+    related_query_name = None
 
     class Meta:
         ordering = ('-publish',)
