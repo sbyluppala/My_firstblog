@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc0ec86c-273b-4ac4-8827-d2ed7bf24e58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swethasblog/templates/blog/post/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/swethasblog/templates/blog/post/list.html" afterDir="false" />
-    </list>
+    <list default="true" id="dc0ec86c-273b-4ac4-8827-d2ed7bf24e58" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,7 @@
           <entry key="gitignore" value="27" />
           <entry key="html" value="126" />
           <entry key="py" value="1380" />
-          <entry key="txt" value="422" />
+          <entry key="txt" value="441" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -79,7 +75,7 @@
           <entry key="CSS" value="4" />
           <entry key="Flow" value="73" />
           <entry key="HTML" value="126" />
-          <entry key="PLAIN_TEXT" value="449" />
+          <entry key="PLAIN_TEXT" value="468" />
           <entry key="Python" value="1380" />
         </counts>
       </usages-collector>
@@ -162,8 +158,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/swethasblog/templates/blog/post/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -560,14 +556,21 @@
       <option name="project" value="LOCAL" />
       <updated>1538014931937</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="updated pagination">
+      <created>1538017522298</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1538017522298</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1631664" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1631664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -617,7 +620,8 @@
     <MESSAGE value="updated comment section" />
     <MESSAGE value="final commit" />
     <MESSAGE value="updated URL pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated URL pattern" />
+    <MESSAGE value="updated pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated pagination" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -889,8 +893,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/swethasblog/templates/blog/post/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
