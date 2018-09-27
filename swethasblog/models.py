@@ -16,7 +16,8 @@ class Post(models.Model):
      ('published', 'Published'),
     )
     title = models.CharField(max_length=250)
-    slug = models.SlugField(max_length=250)
+    slug = models.SlugField(max_length=250,
+                            unique_for_date='publish')
     author = models.ForeignKey(User,
                                on_delete=models.CASCADE,
                                related_name='blog_posts')
@@ -29,7 +30,7 @@ class Post(models.Model):
                               default='draft')
     objects = models.Manager()  # The default manager.
     published = PublishedManager()  # Our custom manager.
-    related_query_name = None
+    # related_query_name = None
 
     class Meta:
         ordering = ('-publish',)
@@ -40,7 +41,6 @@ class Post(models.Model):
     def get_absolute_url(self):
         return reverse('swethasblog:post_detail', args=[self.publish.year,
                        self.publish.month,
-                       self.publish.day,
                        self.slug])
 
 
